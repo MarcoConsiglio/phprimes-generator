@@ -1,1 +1,6 @@
+.phpdoc
+.phpunit.cache
+.vscode
+prime_numbers.txt
+tests/coverage_report
 vendor
