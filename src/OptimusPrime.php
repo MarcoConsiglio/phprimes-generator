@@ -30,11 +30,14 @@ class OptimusPrime
      *
      * @param int|null $limit The limit of the series of prime
      * numbers. If null, defaults to 500.
+     * @param ListIterator|null The iterator used to generate integer numbers.
+     * Default value starts at number 2 because the number 1 is obviously a 
+     * prime number.
      */
-    public function __construct(?int $limit = null)
+    public function __construct(?int $limit = null, ListIterator|null $iterator = null)
     {
         $this->limit = $limit ?? 500;
-        $this->list = new ListIterator(2, static fn (int $n): int => $n + 1);
+        $this->list = $iterator ?? new ListIterator(2, static fn (int $n): int => $n + 1);
     }
 
     /**
