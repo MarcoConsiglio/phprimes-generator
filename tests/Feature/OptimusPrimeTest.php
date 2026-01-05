@@ -1,11 +1,20 @@
 <?php
 namespace MarcoConsiglio\PHPrimesGenerator\Tests\Feature;
 
-use MarcoConsiglio\PHPrimesGenerator\OptimusPrime;
-use MarcoConsiglio\PHPrimesGenerator\Tests\Feature\TestCase;
 use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\Attributes\UsesClass;
+use MarcoConsiglio\PHPrimesGenerator\AbstractPrimes;
+use MarcoConsiglio\PHPrimesGenerator\Iterator\CustomCallbackFilterIterator;
+use MarcoConsiglio\PHPrimesGenerator\Iterator\ListIterator;
+use MarcoConsiglio\PHPrimesGenerator\OptimusPrime;
+use MarcoConsiglio\PHPrimesGenerator\Primes3;
+use MarcoConsiglio\PHPrimesGenerator\Tests\Feature\TestCase;
 
 #[CoversClass(OptimusPrime::class)]
+#[UsesClass(AbstractPrimes::class)]
+#[UsesClass(ListIterator::class)]
+#[UsesClass(Primes3::class)]
+#[UsesClass(CustomCallbackFilterIterator::class)]
 class OptimusPrimeTest extends TestCase
 {
     public function test_generator(): void

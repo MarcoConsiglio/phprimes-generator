@@ -4,14 +4,16 @@ declare(strict_types=1);
 
 namespace MarcoConsiglio\PHPrimesGenerator;
 
-use drupol\primes\Iterator\ListIterator;
-use drupol\primes\Primes3;
 use Iterator;
 use LimitIterator;
+use MarcoConsiglio\PHPrimesGenerator\Iterator\ListIterator;
+use MarcoConsiglio\PHPrimesGenerator\Primes3;
 
 /**
  * The best performance prime number generator using
- * Primes3 class from author drupol.
+ * Primes3 class from author Pol Dellaiera.
+ * 
+ * @author Marco Consiglio <mrccnsgl@gmail.com>
  */
 class OptimusPrime
 {
