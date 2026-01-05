@@ -1,9 +1,104 @@
 Search.appendIndex(
     [
                 {
+            "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\AbstractPrimes",
+            "name": "AbstractPrimes",
+            "summary": "The\u0020abstract\u0020behaviour\u0020of\u0020a\u0020prime\u0020number\u0020generator.",
+            "url": "classes/MarcoConsiglio-PHPrimesGenerator-AbstractPrimes.html"
+        },                {
+            "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\AbstractPrimes\u003A\u003Agenerator\u0028\u0029",
+            "name": "generator",
+            "summary": "",
+            "url": "classes/MarcoConsiglio-PHPrimesGenerator-AbstractPrimes.html#method_generator"
+        },                {
+            "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\Iterator\\CustomCallbackFilterIterator",
+            "name": "CustomCallbackFilterIterator",
+            "summary": "A\u0020custom\u0020filter\u0020for\u0020an\u0020iterator.",
+            "url": "classes/MarcoConsiglio-PHPrimesGenerator-Iterator-CustomCallbackFilterIterator.html"
+        },                {
+            "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\Iterator\\CustomCallbackFilterIterator\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/MarcoConsiglio-PHPrimesGenerator-Iterator-CustomCallbackFilterIterator.html#method___construct"
+        },                {
+            "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\Iterator\\CustomCallbackFilterIterator\u003A\u003Aaccept\u0028\u0029",
+            "name": "accept",
+            "summary": "",
+            "url": "classes/MarcoConsiglio-PHPrimesGenerator-Iterator-CustomCallbackFilterIterator.html#method_accept"
+        },                {
+            "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\Iterator\\ListIterator",
+            "name": "ListIterator",
+            "summary": "A\u0020list\u0020iterator\u0020to\u0020iterate\u0020over\u0020numbers.",
+            "url": "classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html"
+        },                {
+            "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\Iterator\\ListIterator\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html#method___construct"
+        },                {
+            "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\Iterator\\ListIterator\u003A\u003Acurrent\u0028\u0029",
+            "name": "current",
+            "summary": "",
+            "url": "classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html#method_current"
+        },                {
+            "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\Iterator\\ListIterator\u003A\u003Akey\u0028\u0029",
+            "name": "key",
+            "summary": "",
+            "url": "classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html#method_key"
+        },                {
+            "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\Iterator\\ListIterator\u003A\u003Anext\u0028\u0029",
+            "name": "next",
+            "summary": "",
+            "url": "classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html#method_next"
+        },                {
+            "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\Iterator\\ListIterator\u003A\u003Arewind\u0028\u0029",
+            "name": "rewind",
+            "summary": "",
+            "url": "classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html#method_rewind"
+        },                {
+            "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\Iterator\\ListIterator\u003A\u003Avalid\u0028\u0029",
+            "name": "valid",
+            "summary": "",
+            "url": "classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html#method_valid"
+        },                {
+            "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\Iterator\\PrimeIterator",
+            "name": "PrimeIterator",
+            "summary": "The\u0020iterator\u0020to\u0020iterate\u0020over\u0020prime\u0020numbers.",
+            "url": "classes/MarcoConsiglio-PHPrimesGenerator-Iterator-PrimeIterator.html"
+        },                {
+            "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\Iterator\\PrimeIterator\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/MarcoConsiglio-PHPrimesGenerator-Iterator-PrimeIterator.html#method___construct"
+        },                {
+            "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\Iterator\\PrimeIterator\u003A\u003Acurrent\u0028\u0029",
+            "name": "current",
+            "summary": "",
+            "url": "classes/MarcoConsiglio-PHPrimesGenerator-Iterator-PrimeIterator.html#method_current"
+        },                {
+            "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\Iterator\\PrimeIterator\u003A\u003Akey\u0028\u0029",
+            "name": "key",
+            "summary": "",
+            "url": "classes/MarcoConsiglio-PHPrimesGenerator-Iterator-PrimeIterator.html#method_key"
+        },                {
+            "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\Iterator\\PrimeIterator\u003A\u003Anext\u0028\u0029",
+            "name": "next",
+            "summary": "",
+            "url": "classes/MarcoConsiglio-PHPrimesGenerator-Iterator-PrimeIterator.html#method_next"
+        },                {
+            "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\Iterator\\PrimeIterator\u003A\u003Arewind\u0028\u0029",
+            "name": "rewind",
+            "summary": "",
+            "url": "classes/MarcoConsiglio-PHPrimesGenerator-Iterator-PrimeIterator.html#method_rewind"
+        },                {
+            "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\Iterator\\PrimeIterator\u003A\u003Avalid\u0028\u0029",
+            "name": "valid",
+            "summary": "",
+            "url": "classes/MarcoConsiglio-PHPrimesGenerator-Iterator-PrimeIterator.html#method_valid"
+        },                {
             "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\OptimusPrime",
             "name": "OptimusPrime",
-            "summary": "The\u0020best\u0020performance\u0020prime\u0020number\u0020generator\u0020using\nPrimes3\u0020class\u0020from\u0020author\u0020drupol.",
+            "summary": "The\u0020best\u0020performance\u0020prime\u0020number\u0020generator\u0020using\nPrimes3\u0020class\u0020from\u0020author\u0020Pol\u0020Dellaiera.",
             "url": "classes/MarcoConsiglio-PHPrimesGenerator-OptimusPrime.html"
         },                {
             "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\OptimusPrime\u003A\u003A__construct\u0028\u0029",
@@ -15,6 +110,11 @@ Search.appendIndex(
             "name": "generate",
             "summary": "Produce\u0020an\u0020iterable\u0020generator\u0020of\u0020prime\u0020numbers.",
             "url": "classes/MarcoConsiglio-PHPrimesGenerator-OptimusPrime.html#method_generate"
+        },                {
+            "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\Primes3",
+            "name": "Primes3",
+            "summary": "A\u0020prime\u0020numbers\u0020generator\u0020from\u0020author\u0020drupol.",
+            "url": "classes/MarcoConsiglio-PHPrimesGenerator-Primes3.html"
         },                {
             "fqsen": "\\",
             "name": "\\",
@@ -30,5 +130,10 @@ Search.appendIndex(
             "name": "MarcoConsiglio",
             "summary": "",
             "url": "namespaces/marcoconsiglio.html"
+        },                {
+            "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\Iterator",
+            "name": "Iterator",
+            "summary": "",
+            "url": "namespaces/marcoconsiglio-phprimesgenerator-iterator.html"
         }            ]
 );

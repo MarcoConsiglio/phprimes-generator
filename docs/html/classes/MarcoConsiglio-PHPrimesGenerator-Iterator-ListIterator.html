@@ -94,11 +94,12 @@
                                         <ul class="phpdocumentor-breadcrumbs">
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/marcoconsiglio.html">MarcoConsiglio</a></li>
             <li class="phpdocumentor-breadcrumb"><a href="namespaces/marcoconsiglio-phprimesgenerator.html">PHPrimesGenerator</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/marcoconsiglio-phprimesgenerator-iterator.html">Iterator</a></li>
     </ul>
 
     <article class="phpdocumentor-element -class">
         <h2 class="phpdocumentor-content__title">
-    OptimusPrime
+    ListIterator
 
     
             <div class="phpdocumentor-element__package">
@@ -108,30 +109,34 @@
                             </ul>
         </div>
     
+            <span class="phpdocumentor-element__implements">
+            implements
+                            <abbr title="\Iterator">Iterator</abbr>                    </span>
     
     </h2>
 
 <div class="phpdocumentor-label-line">
 
+    <div class="phpdocumentor-label phpdocumentor-label--success"><span>Final</span><span>Yes</span></div>
+
 
 </div>
 
         <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/OptimusPrime.php"><a href="files/src-optimusprime.html"><abbr title="src/OptimusPrime.php">OptimusPrime.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Iterator/ListIterator.php"><a href="files/src-iterator-listiterator.html"><abbr title="src/Iterator/ListIterator.php">ListIterator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">18</span>
+    <span class="phpdocumentor-element-found-in__line">14</span>
 
     </aside>
 
-            <p class="phpdocumentor-summary">The best performance prime number generator using
-Primes3 class from author Pol Dellaiera.</p>
+            <p class="phpdocumentor-summary">A list iterator to iterate over numbers.</p>
 
 
 
 
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
         Tags
-        <a href="classes/MarcoConsiglio-PHPrimesGenerator-OptimusPrime.html#tags" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html#tags" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h5>
     <dl class="phpdocumentor-tag-list">
@@ -140,7 +145,7 @@ Primes3 class from author Pol Dellaiera.</p>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                 
-                                                 <section class="phpdocumentor-description"><p>Marco Consiglio <a href="mailto:mrccnsgl@gmail.com">mrccnsgl@gmail.com</a></p>
+                                                 <section class="phpdocumentor-description"><p>Pol Dellaiera <a href="mailto:pol.dellaiera@protonmail.com">pol.dellaiera@protonmail.com</a></p>
 </section>
 
                                     </dd>
@@ -150,12 +155,19 @@ Primes3 class from author Pol Dellaiera.</p>
     
 <h3 id="toc">
     Table of Contents
-    <a href="classes/MarcoConsiglio-PHPrimesGenerator-OptimusPrime.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h3>
 
 
 
+    <h4 id="toc-interfaces">
+        Interfaces
+        <a href="classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html#toc-interfaces" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <dl class="phpdocumentor-table-of-contents">
+                    <dt class="phpdocumentor-table-of-contents__entry -interface"><abbr title="\Iterator">Iterator</abbr></dt>    </dl>
 
 
 
@@ -165,23 +177,45 @@ Primes3 class from author Pol Dellaiera.</p>
 
 <h4 id="toc-methods">
     Methods
-    <a href="classes/MarcoConsiglio-PHPrimesGenerator-OptimusPrime.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+    <a href="classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
 
 </h4>
 <dl class="phpdocumentor-table-of-contents">
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/MarcoConsiglio-PHPrimesGenerator-OptimusPrime.html#method___construct">__construct()</a>
+    <a class="" href="classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html#method___construct">__construct()</a>
     <span>
                                 &nbsp;: mixed    </span>
 </dt>
-<dd>Construct the prime number generator.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a class="" href="classes/MarcoConsiglio-PHPrimesGenerator-OptimusPrime.html#method_generate">generate()</a>
+    <a class="" href="classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html#method_current">current()</a>
     <span>
-                                &nbsp;: <abbr title="\Iterator">Iterator</abbr>    </span>
+                                &nbsp;: mixed    </span>
 </dt>
-<dd>Produce an iterable generator of prime numbers.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html#method_key">key()</a>
+    <span>
+                                &nbsp;: int    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html#method_next">next()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html#method_rewind">rewind()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html#method_valid">valid()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
 
     </dl>
 
@@ -194,7 +228,7 @@ Primes3 class from author Pol Dellaiera.</p>
             <section class="phpdocumentor-methods">
         <h3 class="phpdocumentor-elements__header" id="methods">
             Methods
-            <a href="classes/MarcoConsiglio-PHPrimesGenerator-OptimusPrime.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+            <a href="classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
 
         </h3>
                     <article
@@ -205,21 +239,20 @@ Primes3 class from author Pol Dellaiera.</p>
 >
     <h4 class="phpdocumentor-element__name" id="method___construct">
         __construct()
-        <a href="classes/MarcoConsiglio-PHPrimesGenerator-OptimusPrime.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/OptimusPrime.php"><a href="files/src-optimusprime.html"><abbr title="src/OptimusPrime.php">OptimusPrime.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Iterator/ListIterator.php"><a href="files/src-iterator-listiterator.html"><abbr title="src/Iterator/ListIterator.php">ListIterator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">39</span>
+    <span class="phpdocumentor-element-found-in__line">33</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Construct the prime number generator.</p>
-
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__type">int|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$limit</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__type"><a href="classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html"><abbr title="\MarcoConsiglio\PHPrimesGenerator\Iterator\ListIterator">ListIterator</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$iterator</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$init</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__type">callable&nbsp;</span><span class="phpdocumentor-signature__argument__name">$succ</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -228,19 +261,16 @@ Primes3 class from author Pol Dellaiera.</p>
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$limit</span>
-                : <span class="phpdocumentor-argument-list__argument__type">int|null</span>
-                 = <span class="phpdocumentor-argument-list__argument__default-value">null</span>            </dt>
+                <span class="phpdocumentor-argument-list__argument__name">$init</span>
+                : <span class="phpdocumentor-argument-list__argument__type">mixed</span>
+                            </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><p>The limit of the series of prime
-numbers. If null, defaults to 500.</p>
-</section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-argument-list__argument__name">$iterator</span>
-                : <span class="phpdocumentor-argument-list__argument__type"><a href="classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html"><abbr title="\MarcoConsiglio\PHPrimesGenerator\Iterator\ListIterator">ListIterator</abbr></a>|null</span>
-                 = <span class="phpdocumentor-argument-list__argument__default-value">null</span>            </dt>
+                <span class="phpdocumentor-argument-list__argument__name">$succ</span>
+                : <span class="phpdocumentor-argument-list__argument__type">callable</span>
+                            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
@@ -258,23 +288,56 @@ numbers. If null, defaults to 500.</p>
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_generate">
-        generate()
-        <a href="classes/MarcoConsiglio-PHPrimesGenerator-OptimusPrime.html#method_generate" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_current">
+        current()
+        <a href="classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html#method_current" class="headerlink"><i class="fas fa-link"></i></a>
 
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/OptimusPrime.php"><a href="files/src-optimusprime.html"><abbr title="src/OptimusPrime.php">OptimusPrime.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Iterator/ListIterator.php"><a href="files/src-iterator-listiterator.html"><abbr title="src/Iterator/ListIterator.php">ListIterator.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">48</span>
+    <span class="phpdocumentor-element-found-in__line">41</span>
 
     </aside>
 
-        <p class="phpdocumentor-summary">Produce an iterable generator of prime numbers.</p>
-
+    
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                    <span class="phpdocumentor-signature__name">generate</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Iterator">Iterator</abbr></span></code>
+                    <span class="phpdocumentor-signature__name">current</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_key">
+        key()
+        <a href="classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html#method_key" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Iterator/ListIterator.php"><a href="files/src-iterator-listiterator.html"><abbr title="src/Iterator/ListIterator.php">ListIterator.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">46</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">key</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
     <div class="phpdocumentor-label-line">
         </div>
@@ -287,7 +350,113 @@ numbers. If null, defaults to 500.</p>
     
             <section>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-        <span class="phpdocumentor-signature__response_type"><abbr title="\Iterator">Iterator</abbr></span>
+        <span class="phpdocumentor-signature__response_type">int</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_next">
+        next()
+        <a href="classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html#method_next" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Iterator/ListIterator.php"><a href="files/src-iterator-listiterator.html"><abbr title="src/Iterator/ListIterator.php">ListIterator.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">51</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">next</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_rewind">
+        rewind()
+        <a href="classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html#method_rewind" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Iterator/ListIterator.php"><a href="files/src-iterator-listiterator.html"><abbr title="src/Iterator/ListIterator.php">ListIterator.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">57</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">rewind</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_valid">
+        valid()
+        <a href="classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html#method_valid" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Iterator/ListIterator.php"><a href="files/src-iterator-listiterator.html"><abbr title="src/Iterator/ListIterator.php">ListIterator.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">63</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">valid</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+        
+    
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
             </section>
 
 </article>
@@ -297,7 +466,7 @@ numbers. If null, defaults to 500.</p>
     <div class="phpdocumentor-modal-bg" data-exit-button></div>
     <div class="phpdocumentor-modal-container">
         <div class="phpdocumentor-modal-content">
-            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/OptimusPrime.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Iterator/ListIterator.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
         </div>
         <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
     </div>
@@ -398,7 +567,7 @@ numbers. If null, defaults to 500.</p>
             <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                                                                <li><a href="classes/MarcoConsiglio-PHPrimesGenerator-OptimusPrime.html#toc-methods">Methods</a></li>
+                                                                                <li><a href="classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html#toc-methods">Methods</a></li>
                                     </ul>
             </li>
             
@@ -406,8 +575,12 @@ numbers. If null, defaults to 500.</p>
                         <li class="phpdocumentor-on-this-page-section__title">Methods</li>
             <li>
                 <ul class="phpdocumentor-list -clean">
-                                            <li class=""><a href="classes/MarcoConsiglio-PHPrimesGenerator-OptimusPrime.html#method___construct">__construct()</a></li>
-                                            <li class=""><a href="classes/MarcoConsiglio-PHPrimesGenerator-OptimusPrime.html#method_generate">generate()</a></li>
+                                            <li class=""><a href="classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html#method___construct">__construct()</a></li>
+                                            <li class=""><a href="classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html#method_current">current()</a></li>
+                                            <li class=""><a href="classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html#method_key">key()</a></li>
+                                            <li class=""><a href="classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html#method_next">next()</a></li>
+                                            <li class=""><a href="classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html#method_rewind">rewind()</a></li>
+                                            <li class=""><a href="classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html#method_valid">valid()</a></li>
                                     </ul>
             </li>
                     </ul>
@@ -427,7 +600,7 @@ numbers. If null, defaults to 500.</p>
     </section>
 </section>
         </div>
-        <a href="classes/MarcoConsiglio-PHPrimesGenerator-OptimusPrime.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
