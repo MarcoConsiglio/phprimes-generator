@@ -1,0 +1,24 @@
+{
+    "name": "marcoconsiglio/phprimes-generator",
+    "description": "A PHP primes number generator originally created by Pol Dellaiera.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Marcoconsiglio\\PHPrimesGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marco Consiglio",
+            "email": "mrccnsgl@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "repositories": [
+        {"type": "vcs", "name": "drupol/primes-bench", "url": "https://github.com/drupol/primes-bench.git"}
+    ],
+    "require": {
+        "drupol/primes-bench": "dev-master"
+    }
+}

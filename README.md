@@ -1,2 +1,2 @@
-# phprimes-generator
-A PHP primes number generator originally created by Pol Dellaiera
+# PHPrimes Generator
+A PHP primes number generator originally created by [*Pol Dellaiera*](https://github.com/drupol).
