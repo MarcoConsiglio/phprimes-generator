@@ -5,7 +5,12 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Marcoconsiglio\\PHPrimesGenerator\\": "src/"
+            "MarcoConsiglio\\PHPrimesGenerator\\": "./src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MarcoConsiglio\\PHPrimesGenerator\\Tests\\": "./tests/"
         }
     },
     "authors": [
