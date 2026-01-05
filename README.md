@@ -1,6 +1,11 @@
 ![GitHub License](https://img.shields.io/github/license/MarcoConsiglio/phprimes-generator)
 ![GitHub Release](https://img.shields.io/github/v/release/MarcoConsiglio/phprimes-generator)
-![Static Badge](https://img.shields.io/badge/current_version-v1.0.0-white)
+![Static Badge](https://img.shields.io/badge/current_version-v1.1.0-white)
+<br>
+![Static Badge](https://img.shields.io/badge/6%25-rgb(166%2C%2038%2C%2051)?label=Line%20coverage&labelColor=rgb(255%2C255%2C255))
+![Static Badge](https://img.shields.io/badge/10%25-rgb(166%2C%2038%2C%2051)?label=Branch%20coverage&labelColor=rgb(255%2C255%2C255))
+![Static Badge](https://img.shields.io/badge/6%25-rgb(166%2C%2038%2C%2051)?label=Path%20coverage&labelColor=rgb(255%2C255%2C255))
+
 # PHPrimes Generator
 A PHP primes number generator originally created by [*Pol Dellaiera*](https://github.com/drupol) in its [drupol/primes-bench](https://github.com/drupol/primes-bench) repo.
 

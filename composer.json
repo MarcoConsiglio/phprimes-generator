@@ -20,12 +20,6 @@
         }
     ],
     "minimum-stability": "stable",
-    "repositories": [
-        {"type": "vcs", "name": "drupol/primes-bench", "url": "https://github.com/drupol/primes-bench.git"}
-    ],
-    "require": {
-        "drupol/primes-bench": "dev-master"
-    },
     "require-dev": {
         "phpunit/phpunit": "^12.5"
     }
