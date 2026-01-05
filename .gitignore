@@ -2,3 +2,4 @@ vendor
 .phpunit.cache
 .vscode
 tests/coverage_report
+prime_numbers.txt

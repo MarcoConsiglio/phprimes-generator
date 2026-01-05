@@ -24,4 +24,21 @@ class OptimusPrimeTest extends TestCase
         $primes->next();
         $this->assertSame(11, $primes->current());
     }
+
+    /**
+     * Uncomment this method to easily generate $limit prime numbers
+     * in a text file.
+     */
+    // public function test_record_primes_numbers_to_file(): void
+    // {
+    //     $this->expectNotToPerformAssertions();
+    //     $limit = 5;
+    //     $primes = (new OptimusPrime($limit))->generate();
+    //     $primes_numbers = [];
+    //     $filename = "prime_numbers.txt";
+    //     foreach($primes as $number) {
+    //         $primes_numbers[] = $number.PHP_EOL;
+    //     }
+    //     file_put_contents($filename, $primes_numbers);
+    // }
 }
