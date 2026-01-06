@@ -42,20 +42,12 @@ foreach($primes as $number) {
 
 ```
 ## Integer safe iterator
-Constructing the `OptimusPrime` class with the default iterator throw a `TypeError` if the value `PHP_INT_MAX` is reached, due to PHP automatically cast overflowing integers to `float` type variables.
-
-In order to have a recoverable exception `MaximumIntegerIteratorValueReached` you want to pass the `IntegerListIterator` to the `OptimusPrime` class constructor.
+The `OptimusPrime` class uses an integer safe iterator which throws exception `MaximumIntegerIteratorValueReached` when PHP_INT_MAX + 1 value is reached.
 ```php
 use MarcoConsiglio\PHPrimesGenerator\OptimusPrime;
 
-// The first parameter limit the generator to PHP_MAX_INT,
-// the second parameter start the iterator from PHP_MAX_INT.
-// This would immediatly throws a TypeError, but the IntegerListIterator
-// throws an exception.
 try {
-    $primes = new OptimusPrime(PHP_MAX_INT, new IntegerListIterator(PHP_MAX_INT))->generate();
-    // For older PHP versions use this
-    // $primes = (new OptimusPrime(5))->generate();
+    $primes = new OptimusPrime(PHP_MAX_INT)->generate();
     foreach($primes as $number) {
         echo $number.PHP_EOL;
     }
