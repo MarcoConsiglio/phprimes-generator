@@ -11,6 +11,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/MarcoConsiglio-PHPrimesGenerator-AbstractPrimes.html#method_generator"
         },                {
+            "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\Exception\\MaximumIntegerIteratorValueReached",
+            "name": "MaximumIntegerIteratorValueReached",
+            "summary": "The\u0020exception\u0020thrown\u0020when\u0020an\u0020integer\u0020iterator\u0020tries\u0020to\u0020go\u0020over\u0020the\nmaximum\u0020integer\u0020storable\u0020value\u0020specified\u0020in\u0020PHP_INT_MAX.",
+            "url": "classes/MarcoConsiglio-PHPrimesGenerator-Exception-MaximumIntegerIteratorValueReached.html"
+        },                {
+            "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\Exception\\MaximumIntegerIteratorValueReached\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "Construct\u0020this\u0020exception.",
+            "url": "classes/MarcoConsiglio-PHPrimesGenerator-Exception-MaximumIntegerIteratorValueReached.html#method___construct"
+        },                {
             "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\Iterator\\CustomCallbackFilterIterator",
             "name": "CustomCallbackFilterIterator",
             "summary": "A\u0020custom\u0020filter\u0020for\u0020an\u0020iterator.",
@@ -26,6 +36,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/MarcoConsiglio-PHPrimesGenerator-Iterator-CustomCallbackFilterIterator.html#method_accept"
         },                {
+            "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\Iterator\\IntegerListIterator",
+            "name": "IntegerListIterator",
+            "summary": "A\u0020list\u0020iterator\u0020to\u0020iterate\u0020over\u0020numbers.",
+            "url": "classes/MarcoConsiglio-PHPrimesGenerator-Iterator-IntegerListIterator.html"
+        },                {
+            "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\Iterator\\IntegerListIterator\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "Construct\u0020the\u0020iterator\u0020starting\u0020from\u0020\u0024start,\u0020iterating\nover\u0020integer\u0020values.",
+            "url": "classes/MarcoConsiglio-PHPrimesGenerator-Iterator-IntegerListIterator.html#method___construct"
+        },                {
             "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\Iterator\\ListIterator",
             "name": "ListIterator",
             "summary": "A\u0020list\u0020iterator\u0020to\u0020iterate\u0020over\u0020numbers.",
@@ -33,32 +53,32 @@ Search.appendIndex(
         },                {
             "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\Iterator\\ListIterator\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "",
+            "summary": "Construct\u0020the\u0020iterator\u0020starting\u0020from\u0020\u0024start,\u0020iterating\nover\u0020the\u0020values\u0020produced\u0020by\u0020the\u0020\u0024next\u0020callable.",
             "url": "classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html#method___construct"
         },                {
             "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\Iterator\\ListIterator\u003A\u003Acurrent\u0028\u0029",
             "name": "current",
-            "summary": "",
+            "summary": "Return\u0020the\u0020current\u0020element.",
             "url": "classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html#method_current"
         },                {
             "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\Iterator\\ListIterator\u003A\u003Akey\u0028\u0029",
             "name": "key",
-            "summary": "",
+            "summary": "Return\u0020the\u0020key\u0020of\u0020the\u0020current\u0020element.",
             "url": "classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html#method_key"
         },                {
             "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\Iterator\\ListIterator\u003A\u003Anext\u0028\u0029",
             "name": "next",
-            "summary": "",
+            "summary": "Move\u0020forward\u0020to\u0020next\u0020element.",
             "url": "classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html#method_next"
         },                {
             "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\Iterator\\ListIterator\u003A\u003Arewind\u0028\u0029",
             "name": "rewind",
-            "summary": "",
+            "summary": "Rewind\u0020the\u0020Iterator\u0020to\u0020the\u0020first\u0020element.",
             "url": "classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html#method_rewind"
         },                {
             "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\Iterator\\ListIterator\u003A\u003Avalid\u0028\u0029",
             "name": "valid",
-            "summary": "",
+            "summary": "Checks\u0020if\u0020current\u0020position\u0020is\u0020valid.",
             "url": "classes/MarcoConsiglio-PHPrimesGenerator-Iterator-ListIterator.html#method_valid"
         },                {
             "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\Iterator\\PrimeIterator",
@@ -130,6 +150,11 @@ Search.appendIndex(
             "name": "MarcoConsiglio",
             "summary": "",
             "url": "namespaces/marcoconsiglio.html"
+        },                {
+            "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\Exception",
+            "name": "Exception",
+            "summary": "",
+            "url": "namespaces/marcoconsiglio-phprimesgenerator-exception.html"
         },                {
             "fqsen": "\\MarcoConsiglio\\PHPrimesGenerator\\Iterator",
             "name": "Iterator",

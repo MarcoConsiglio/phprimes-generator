@@ -1,10 +1,10 @@
 ![GitHub License](https://img.shields.io/github/license/MarcoConsiglio/phprimes-generator)
 ![GitHub Release](https://img.shields.io/github/v/release/MarcoConsiglio/phprimes-generator)
-![Static Badge](https://img.shields.io/badge/current_version-v1.1.0-white)
+![Static Badge](https://img.shields.io/badge/current_version-v1.2.0-white)
 <br>
-![Static Badge](https://img.shields.io/badge/6%25-rgb(166%2C%2038%2C%2051)?label=Line%20coverage&labelColor=rgb(255%2C255%2C255))
-![Static Badge](https://img.shields.io/badge/10%25-rgb(166%2C%2038%2C%2051)?label=Branch%20coverage&labelColor=rgb(255%2C255%2C255))
-![Static Badge](https://img.shields.io/badge/6%25-rgb(166%2C%2038%2C%2051)?label=Path%20coverage&labelColor=rgb(255%2C255%2C255))
+![Static Badge](https://img.shields.io/badge/26%25-rgb(166%2C%2038%2C%2051)?label=Line%20coverage&labelColor=rgb(255%2C255%2C255))
+![Static Badge](https://img.shields.io/badge/29%25-rgb(166%2C%2038%2C%2051)?label=Branch%20coverage&labelColor=rgb(255%2C255%2C255))
+![Static Badge](https://img.shields.io/badge/26%25-rgb(166%2C%2038%2C%2051)?label=Path%20coverage&labelColor=rgb(255%2C255%2C255))
 
 # PHPrimes Generator
 A PHP primes number generator originally created by [*Pol Dellaiera*](https://github.com/drupol) in its [drupol/primes-bench](https://github.com/drupol/primes-bench) repo.
@@ -20,7 +20,7 @@ composer require marcoconsiglio/phprimes-generator
 Keep in mind that:
 - the generator in question continues forever, so it is highly recommended to set a limit (by default it is the first 500 prime numbers);
 - random access is not possible, like in `$primes[$i]`;
-- you cannot rewind the generator, so you must instatiate it again in order to start over.
+- if you rewind the iterator, it start over again.
 
 ```php
 use MarcoConsiglio\PHPrimesGenerator\OptimusPrime;
@@ -41,8 +41,31 @@ foreach($primes as $number) {
 11
 
 ```
+## Integer safe iterator
+Constructing the `OptimusPrime` class with the default iterator throw a `TypeError` if the value `PHP_INT_MAX` is reached, due to PHP automatically cast overflowing integers to `float` type variables.
+
+In order to have a recoverable exception `MaximumIntegerIteratorValueReached` you want to pass the `IntegerListIterator` to the `OptimusPrime` class constructor.
+```php
+use MarcoConsiglio\PHPrimesGenerator\OptimusPrime;
+
+// The first parameter limit the generator to PHP_MAX_INT,
+// the second parameter start the iterator from PHP_MAX_INT.
+// This would immediatly throws a TypeError, but the IntegerListIterator
+// throws an exception.
+try {
+    $primes = new OptimusPrime(PHP_MAX_INT, new IntegerListIterator(PHP_MAX_INT))->generate();
+    // For older PHP versions use this
+    // $primes = (new OptimusPrime(5))->generate();
+    foreach($primes as $number) {
+        echo $number.PHP_EOL;
+    }
+} catch (MaximumIntegerIteratorValueReached $e) {
+    echo $e->getMessage();
+}
+
+```
 ## Generate to file
-Do you rapidly need primes number on a text file? Uncomment the test method `OptimusPrimeTest::test_record_primes_numbers_to_file()`, set a `$limit` of your preference and launch the same test method with:
+Do you rapidly need primes numbers on a text file? Uncomment the test method `OptimusPrimeTest::test_record_primes_numbers_to_file()`, set a `$limit` of your preference and launch the same test method with:
 ```bash
 vendor/bin/phpunit --filter=test_record_primes_numbers_to_file
 ```
