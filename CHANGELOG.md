@@ -1,5 +1,5 @@
 # Changelog
-## v1.2.0 - 2026-01-06
+## v2.0.0 - 2026-01-06
 ### Added
 - `IntegerListIterator` to process a list of safe integers to be stored in an `int` type variable.
 - `MaximumIntegerIteratorValueReached` exception, thrown when `IntegerListIterator` tries to go beyond `PHP_INT_MAX`.
@@ -7,7 +7,7 @@
 - README documentation.
 - API documentation.
 ### Removed
-- `OptimusPrime` constructor parameter `$iterator`. Now it uses internally `IntegerListIterator`.
+- BREAKING CHANGE: `OptimusPrime` constructor parameter `$iterator`. Now it uses internally `IntegerListIterator`.
 ### Fixed
 - #4 using `IntegerListIterator` instead of `ListIterator`.
 

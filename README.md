@@ -1,6 +1,6 @@
 ![GitHub License](https://img.shields.io/github/license/MarcoConsiglio/phprimes-generator)
 ![GitHub Release](https://img.shields.io/github/v/release/MarcoConsiglio/phprimes-generator)
-![Static Badge](https://img.shields.io/badge/current_version-v1.2.0-white)
+![Static Badge](https://img.shields.io/badge/current_version-v2.0.0-white)
 <br>
 ![Static Badge](https://img.shields.io/badge/26%25-rgb(166%2C%2038%2C%2051)?label=Line%20coverage&labelColor=rgb(255%2C255%2C255))
 ![Static Badge](https://img.shields.io/badge/29%25-rgb(166%2C%2038%2C%2051)?label=Branch%20coverage&labelColor=rgb(255%2C255%2C255))
