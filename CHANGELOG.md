@@ -6,6 +6,8 @@
 ### Changed
 - README documentation.
 - API documentation.
+### Fixed
+- bug-#4 using `IntegerListIterator` instead of `ListIterator`.
 
 ## v1.1.0 - 2026-01-05
 ### Added
